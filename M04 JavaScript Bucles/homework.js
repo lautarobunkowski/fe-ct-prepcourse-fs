@@ -149,17 +149,19 @@ function doWhile(num) {
    // Utilizar el bucle Do-While.
    // Tu código:
 
-   // var contador = 0;
-   // do{
-   //    num += 5;
-   //    contador += 1;
-   // } while(contador < 8)
-   // return num;
-
-   for(let i = 0; i < 8; i++){
-      num+= 5;
-   }
+   // BUCLE DO-WHILE ---------------------------
+   var contador = 0;
+   do{
+      num += 5;
+      contador += 1;
+   } while(contador < 8)
    return num;
+
+   // BUCLE FOR ---------------------------------
+   // for(let i = 0; i < 8; i++){
+   //    num+= 5;
+   // }
+   // return num;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
